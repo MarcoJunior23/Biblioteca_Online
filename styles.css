@@ -96,19 +96,6 @@ nav .container {
     margin-bottom: 20px;
 }
 
-.hero .btn {
-    background: #ff9800;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 18px;
-}
-
-.hero .btn:hover {
-    background: #e68900;
-}
-
 /* Estilo das seções */
 section {
     padding: 60px 0;
