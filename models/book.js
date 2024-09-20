@@ -1,4 +1,11 @@
-// Modelo de dados em memória
-let books = [];
+const mongoose = require( 'mongoose');
 
-module.exports = books;
+// Definindo o esquema do livro
+const BookSchema = mongoose.Schema ({
+title: { type: String, required: true },
+author: { type: String, requird: true },
+year: { type: Number },
+});
+
+// Exportando o modelo
+module.exports = mongoose.model('Book',  BookSchema);
